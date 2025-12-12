@@ -34,13 +34,13 @@ Use the Japanese folder structure as a reference when you add more languages.
 
 The site uses [VitePress][] with separate configs per language.
 
-* Site-wide config: [docs/.VitePress/config.mts][]
+* Site-wide config: [docs/.vitepress/config.mts][]
 * English-specific (default) site config: [docs/config.ts][]
 * English homepage: [docs/en/index.md][]
 * Japanese-specific site config: [docs/ja/config.ts][]
 * Japanese homepage: [docs/ja/index.md][]
 
-[docs/.VitePress/config.mts]: ./docs/.VitePress/config.mts
+[docs/.vitepress/config.mts]: ./docs/.vitepress/config.mts
 [docs/config.ts]: ./docs/config.ts
 [docs/en/index.md]: ./docs/en/index.md
 [docs/ja/config.ts]: ./docs/ja/config.ts
@@ -100,23 +100,23 @@ This repository uses the following tools and dependencies:
 | Tool                                    | Purpose                                 | Config file                                                                                                     |
 | --------------------------------------- | --------------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | [CSpell][]                              | Spell checking                          | [.cspell.json][]                                                                                                |
-| [DavidingPlus/VitePress-image-viewer][] | Image viewer with zoom and captions     | [docs/.VitePress/theme/index.ts][] and [../theme/components/ImageViewerActivator.vue][ImageViewerActivator.vue] |
+| [DavidingPlus/VitePress-image-viewer][] | Image viewer with zoom and captions     | [docs/.vitepress/theme/index.ts][] and [../theme/components/ImageViewerActivator.vue][ImageViewerActivator.vue] |
 | [markdownlint-cli2][]                   | Markdown linting                        | [.markdownlint.json][]                                                                                          |
 | [Pictogrammers Material Design Icons][] | Icon library                            | [docs/public/pictogrammers/][]                                                                                  |
 | [pnpm][]                                | Package manager                         | [pnpm-workspace.yaml][]                                                                                         |
 | [prettier][]                            | Code formatter                          | [.prettierrc.json5][]                                                                                           |
-| [VitePress Mermaid Renderer][]          | Mermaid diagram rendering for VitePress | [docs/.VitePress/theme/index.ts][]                                                                              |
-| [VitePress-sidebar][]                   | Sidebar management for VitePress        | [docs/.VitePress/config.mts][]                                                                                  |
-| [VitePress][]                           | Static site generator                   | [docs/.VitePress/config.mts][]                                                                                  |
+| [VitePress Mermaid Renderer][]          | Mermaid diagram rendering for VitePress | [docs/.vitepress/theme/index.ts][]                                                                              |
+| [VitePress-sidebar][]                   | Sidebar management for VitePress        | [docs/.vitepress/config.mts][]                                                                                  |
+| [VitePress][]                           | Static site generator                   | [docs/.vitepress/config.mts][]                                                                                  |
 
 [.cspell.json]: .cspell.json
 [.markdownlint.json]: .markdownlint.json
 [.prettierrc.json5]: .prettierrc.json5
 [CSpell]: https://cspell.org/
 [DavidingPlus/VitePress-image-viewer]: https://github.com/davidingplus/VitePress-image-viewer
-[docs/.VitePress/theme/index.ts]: ./docs/.VitePress/theme/index.ts
+[docs/.vitepress/theme/index.ts]: ./docs/.vitepress/theme/index.ts
 [docs/public/pictogrammers/]: ./docs/public/pictogrammers/
-[ImageViewerActivator.vue]: ./docs/.VitePress/theme/components/ImageViewerActivator.vue
+[ImageViewerActivator.vue]: ./docs/.vitepress/theme/components/ImageViewerActivator.vue
 [markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
 [Pictogrammers Material Design Icons]: https://pictogrammers.com/library/mdi/
 [pnpm-workspace.yaml]: ./pnpm-workspace.yaml

@@ -3,8 +3,8 @@
 layout: home
 
 hero:
-  name: 'VitePress multilingual setup'
-  text: 'template repository for creating a multilingual documentation site using VitePress'
+  name: 'My Awesome Project'
+  text: 'A VitePress Site'
   tagline: My great project tagline
   actions:
     - theme: brand

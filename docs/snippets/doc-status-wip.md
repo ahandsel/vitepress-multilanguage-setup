@@ -1,4 +1,4 @@
-# Doc status snippet for work-in-progress documents
+# Doc status snippet for work-in-progress pages
 
 
 ## English
@@ -6,7 +6,7 @@
 <Badge type="warning" text="Work in progress 🚧" /> <!-- markdownlint-disable-line MD033 -->
 
 > [!WARNING] Work in progress 🚧  
-> This document is being written and its content may change without prior notice.
+> This page is being written and its content may change without prior notice.
 
 
 ## Japanese

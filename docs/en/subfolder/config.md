@@ -1,3 +1,5 @@
+# VitePress Site Configuration Example
+
 ```ts [config.mts]
 import { defineConfig } from 'vitepress';
 
@@ -27,4 +29,4 @@ export default defineConfig({
     ],
   },
 });
-```;
+```

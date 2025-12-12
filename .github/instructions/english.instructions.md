@@ -13,7 +13,8 @@ When reviewing or creating English documents in `docs/en/` directory, follow the
 * Use sentence case for headings and subheadings (capitalize only the first word and proper nouns).
 * Avoid using slang or idiomatic expressions.
 * Keep the wording simple and straightforward to ensure non-native English speakers easily understand the content.
-* Do not use ` – `. Use ` - ` instead.
+* Do not use `–`. Use `-` instead.
+
 
 ## Note
 

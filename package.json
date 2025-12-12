@@ -1,13 +1,38 @@
 {
   "name": "vitepress-multilanguage-setup",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "description": "Template repository for setting up a VitePress documentation site with multi-language support.",
+  "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "code-format": "prettier --write .",
+    "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
+    "lint": "pnpm run code-format && pnpm run md-lint",
+    "tree": "tree docs -P \"*.md\" > structure.md"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "packageManager": "pnpm@10.23.0"
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "@davidingplus/vitepress-image-viewer": "^1.1.5",
+    "init": "^0.1.2",
+    "js-yaml": "^4.1.1",
+    "markdownlint-cli2": "^0.18.1",
+    "prettier": "^3.6.2",
+    "vitepress": "2.0.0-alpha.12",
+    "vitepress-mermaid-renderer": "^1.1.5",
+    "vitepress-sidebar": "^1.33.0",
+    "vue": "^3.5.24",
+    "wrangler": "^4.49.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "error"
+    }
+  }
 }

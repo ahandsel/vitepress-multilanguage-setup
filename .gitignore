@@ -1,0 +1,46 @@
+# Temp files
+temp.*
+temp-*
+.temp
+
+# Private files
+private/
+.secrets
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependencies
+node_modules/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# npm/yarn/pnpm caches
+.npm
+.yarn-integrity
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+.pnp.*
+
+# Lint/style caches
+.eslintcache
+.stylelintcache
+
+# npm pack output
+*.tgz
+
+# Framework build outputs
+dist
+.cache/
+**/.vitepress/dist
+**/.vitepress/cache
+
+# dotenv
+.env
+.env.*

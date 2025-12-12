@@ -42,25 +42,25 @@ This repository uses the following tools and dependencies:
 | [CSpell][]                              | Spell checking                          | [.cspell.json][]                                                                                                |
 | [DavidingPlus/VitePress-image-viewer][] | Image viewer with zoom and captions     | [docs/.vitepress/theme/index.ts][] and [../theme/components/ImageViewerActivator.vue][ImageViewerActivator.vue] |
 | [markdownlint-cli2][]                   | Markdown linting                        | [.markdownlint.json][]                                                                                          |
-| [Pictogrammers Material Design Icons][] | Icon library                            | [docs/public/pictogrammers/][]                                                                                  |
+| [MingCute Icon][]                       | Icon library                            | [docs/public/mingcute/][]                                                                                       |
 | [pnpm][]                                | Package manager                         | [pnpm-workspace.yaml][]                                                                                         |
 | [prettier][]                            | Code formatter                          | [.prettierrc.json5][]                                                                                           |
 | [VitePress Mermaid Renderer][]          | Mermaid diagram rendering for VitePress | [docs/.vitepress/theme/index.ts][]                                                                              |
 | [VitePress-sidebar][]                   | Sidebar management for VitePress        | [docs/.vitepress/config.mts][]                                                                                  |
 | [VitePress][]                           | Static site generator                   | [docs/.vitepress/config.mts][]                                                                                  |
 
-[.cspell.json]: ../../.cspell.json
-[.markdownlint.json]: ../../.markdownlint.json
-[.prettierrc.json5]: ../../.prettierrc.json5
+[.cspell.json]: .cspell.json
+[.markdownlint.json]: .markdownlint.json
+[.prettierrc.json5]: .prettierrc.json5
 [CSpell]: https://cspell.org/
 [DavidingPlus/VitePress-image-viewer]: https://github.com/davidingplus/VitePress-image-viewer
-[docs/.vitepress/theme/index.ts]: ../../docs/.vitepress/theme/index.ts
-[docs/public/pictogrammers/]: ../../docs/public/pictogrammers/
-[ImageViewerActivator.vue]: ../../docs/.vitepress/theme/components/ImageViewerActivator.vue
+[docs/.vitepress/theme/index.ts]: ./docs/.vitepress/theme/index.ts
+[docs/public/mingcute/]: ./docs/public/mingcute/
+[ImageViewerActivator.vue]: ./docs/.vitepress/theme/components/ImageViewerActivator.vue
 [markdownlint-cli2]: https://github.com/DavidAnson/markdownlint-cli2
-[Pictogrammers Material Design Icons]: https://pictogrammers.com/library/mdi/
-[pnpm-workspace.yaml]: ../../pnpm-workspace.yaml
+[pnpm-workspace.yaml]: ./pnpm-workspace.yaml
 [pnpm]: https://pnpm.io/
 [prettier]: https://prettier.io/
 [VitePress Mermaid Renderer]: https://VitePress-mermaid-renderer.sametcc.me/
 [VitePress-sidebar]: https://VitePress-sidebar.cdget.com/
+[MingCute Icon]: https://www.mingcute.com/

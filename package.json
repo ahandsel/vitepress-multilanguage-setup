@@ -4,7 +4,7 @@
   "description": "Template repository for setting up a VitePress documentation site with multi-language support.",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "pnpm lint && pnpm docs:build && pnpm docs:preview",
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
     "docs:preview": "vitepress preview docs",
@@ -13,9 +13,23 @@
     "lint": "pnpm run code-format && pnpm run md-lint",
     "tree": "tree docs -P \"*.md\" > structure.md"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "vitepress",
+    "documentation",
+    "multilanguage",
+    "i18n",
+    "template",
+    "ドキュメント",
+    "多言語",
+    "テンプレート"
+  ],
+  "homepage": "https://ahandsel.github.io/vitepress-multilanguage-setup/",
+  "bugs": {
+    "url": "https://github.com/ahandsel/vitepress-multilanguage-setup/issues"
+  },
+  "repository": "github:ahandsel/vitepress-multilanguage-setup",
+  "author": "ahandsel",
+  "license": "MIT",
   "packageManager": "pnpm@10.25.0",
   "devDependencies": {
     "@davidingplus/vitepress-image-viewer": "^1.1.5",

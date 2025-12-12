@@ -12,7 +12,6 @@ import './style.css';
 
 // Mermaid diagram renderer
 import { createMermaidRenderer } from 'vitepress-mermaid-renderer';
-import './vitepress-mermaid-renderer.css'; // Import manually for Cloudflare Pages compatibility
 
 // ImageViewer activator component
 import ImageViewerActivator from './components/ImageViewerActivator.vue';

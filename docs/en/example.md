@@ -25,5 +25,8 @@
 
 ### Doc banners to indicate status
 
-* For machine-translated docs: [docs/snippets/doc-status-ai.md](docs/snippets/doc-status-ai.md)
-* For work-in-progress docs: [docs/snippets/doc-status-wip.md](docs/snippets/doc-status-wip.md)
+* For machine-translated docs: [docs/snippets/doc-status-ai.md][]
+* For work-in-progress docs: [docs/snippets/doc-status-wip.md][]
+
+[docs/snippets/doc-status-ai.md]: ./snippets/doc-status-ai.md
+[docs/snippets/doc-status-wip.md]: ./snippets/doc-status-wip.md

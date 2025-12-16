@@ -64,13 +64,13 @@ pnpm up -latest
 Start the local development server.
 
 ```shell
-pnpm docs:dev
+pnpm dev
 ```
 
 Build the static site.
 
 ```shell
-pnpm docs:build
+pnpm build
 ```
 
 

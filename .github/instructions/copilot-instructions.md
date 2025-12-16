@@ -20,8 +20,8 @@ Run from the repository root:
 
 ```shell
 pnpm install
-pnpm docs:dev
-pnpm docs:build
+pnpm dev
+pnpm build
 ```
 
 

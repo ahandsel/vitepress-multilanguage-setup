@@ -102,7 +102,7 @@ export default {
       () => isDark.value,
       () => {
         nextTick(() => initMermaid());
-      },
+      }
     );
 
     return h(DefaultTheme.Layout, null, {

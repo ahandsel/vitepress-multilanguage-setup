@@ -37,12 +37,12 @@ const vitePressOptions = {
             // Replace H1 that is exactly an interpolation of frontmatter.title
             rewritten = rewritten.replace(
               /^#\s*\{\{\s*\$frontmatter\.title\s*\}\}\s*$/m,
-              `# ${fm.title}`,
+              `# ${fm.title}`
             );
             // Drop any other heading levels that interpolate frontmatter.title
             rewritten = rewritten.replace(
               /^#{2,6}\s*\{\{\s*\$frontmatter\.title\s*\}\}\s*$/gm,
-              '',
+              ''
             );
           }
 
@@ -150,5 +150,5 @@ const vitePressSidebarConfigs = [
 ];
 
 export default defineConfig(
-  withSidebar(vitePressOptions, vitePressSidebarConfigs),
+  withSidebar(vitePressOptions, vitePressSidebarConfigs)
 );

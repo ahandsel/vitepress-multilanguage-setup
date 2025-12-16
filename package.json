@@ -1,0 +1,53 @@
+{
+  "name": "vitepress-multilanguage-setup",
+  "version": "1.0.0",
+  "description": "Template repository for setting up a VitePress documentation site with multi-language support.",
+  "type": "module",
+  "scripts": {
+    "test": "pnpm lint && pnpm build && pnpm preview",
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "preview": "vitepress preview docs",
+    "code-format": "prettier --write .",
+    "md-lint": "markdownlint-cli2 --config .markdownlint.json \"**/*.md\" \"#node_modules\" --fix",
+    "lint": "pnpm run code-format && pnpm run md-lint",
+    "tree": "tree docs -P \"*.md\" > structure.md"
+  },
+  "keywords": [
+    "vitepress",
+    "documentation",
+    "multilanguage",
+    "i18n",
+    "template",
+    "ドキュメント",
+    "多言語",
+    "テンプレート"
+  ],
+  "homepage": "https://ahandsel.github.io/vitepress-multilanguage-setup/",
+  "bugs": {
+    "url": "https://github.com/ahandsel/vitepress-multilanguage-setup/issues"
+  },
+  "repository": "github:ahandsel/vitepress-multilanguage-setup",
+  "author": "ahandsel",
+  "license": "MIT",
+  "packageManager": "pnpm@10.25.0",
+  "devDependencies": {
+    "@davidingplus/vitepress-image-viewer": "^1.1.5",
+    "init": "^0.1.2",
+    "js-yaml": "^4.1.1",
+    "markdownlint-cli2": "^0.20.0",
+    "pnpm": "^10.25.0",
+    "prettier": "^3.7.4",
+    "vitepress": "2.0.0-alpha.15",
+    "vitepress-mermaid-renderer": "^1.1.6",
+    "vitepress-sidebar": "^1.33.1",
+    "vue": "^3.5.25",
+    "wrangler": "^4.53.0"
+  },
+  "devEngines": {
+    "packageManager": {
+      "name": "pnpm",
+      "onFail": "error"
+    }
+  }
+}
